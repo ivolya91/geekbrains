@@ -13,7 +13,7 @@ public class Main {
             scanner.close();
         }
 
-        private static void playLevel ( int range){
+        private static void playLevel (int range){
             int number = (int) (Math.random() * range);
             while (true) {
                 System.out.println("Угадайте число от 0 до " + range);
